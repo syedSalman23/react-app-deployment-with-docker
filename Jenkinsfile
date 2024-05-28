@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     stages {
-        stage ('changing the file permission') {
+        stage ('Changing the file permission') {
             steps {
-                sh ' chmod +x build.sh'
+                sh 'chmod +x ${WORKSPACE}/build.sh'
             }
         }
 
-        stage ('executing the file') {
+        stage ('Executing the file') {
             steps {
-                sh './build.sh'
+                sh '${WORKSPACE}/build.sh'
             }
         }
     }
