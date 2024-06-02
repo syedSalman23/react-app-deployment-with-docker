@@ -13,7 +13,7 @@ class App extends Component {
 
         </div>
         <ul>
-          <li><Link to="/Git">Git</Link></li>
+          <li><Link to="/Git">Github99</Link></li>
           <li><Link to="/Jenkins">Jenkins</Link></li>
           <li><Link to="/Docker">Docker</Link></li>
           <li><Link to="/Kubernetes">Kubernetes</Link></li>
