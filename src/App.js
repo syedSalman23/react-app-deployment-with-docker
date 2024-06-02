@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Most famous DevOps Tools here3468826846516846516:</h2>
+          <h2>Most famous DevOps Tools here:</h2>
 
         </div>
         <ul>
